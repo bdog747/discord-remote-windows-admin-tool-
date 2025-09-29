@@ -52,11 +52,6 @@ A Discord bot that provides remote administration capabilities for Windows syste
    REQUIRE_ADMIN_PRIVILEGES = False
    ```
 
-3. **Run the bot:**
-   ```bash
-   python bot.py
-   ```
-
 ## Basic Commands
 
 ### System Information
@@ -120,3 +115,4 @@ A Discord bot that provides remote administration capabilities for Windows syste
 3. **Features not available:**
    - Some commands require additional Python packages
    - Basic file and system operations work without extra dependencies
+
