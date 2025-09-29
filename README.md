@@ -51,6 +51,11 @@ A Discord bot that provides remote administration capabilities for Windows syste
    ADMIN_USER_ID = 123456789012345678  # Your actual Discord user ID
    REQUIRE_ADMIN_PRIVILEGES = False
    ```
+3. **Use pyinstaller to make it a exe**
+   Example:
+   ```python
+   pyinstaller --noconfirm --onefile --windowed  "path to .py file"
+   ```
 
 ## Basic Commands
 
@@ -115,4 +120,5 @@ A Discord bot that provides remote administration capabilities for Windows syste
 3. **Features not available:**
    - Some commands require additional Python packages
    - Basic file and system operations work without extra dependencies
+
 
