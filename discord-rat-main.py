@@ -42,7 +42,7 @@ import sys
 DISCORD_TOKEN = ""
 
 # Your Discord user ID (to restrict commands to only you)
-ADMIN_USER_ID = "" # Replace with your actual Discord user ID
+ADMIN_USER_ID =  # Replace with your actual Discord user ID
 
 # Security settings
 REQUIRE_ADMIN_PRIVILEGES = False  # Set to True if you want to require admin rights for the bot to run
@@ -1157,3 +1157,4 @@ if __name__ == "__main__":
     except Exception as e:
 
         print(f"❌ Error starting bot: {e}")
+
