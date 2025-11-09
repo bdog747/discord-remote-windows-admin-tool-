@@ -13,22 +13,3 @@ pyaudio>=0.2.11
 pywin32>=306
 requests>=2.31.0
 screeninfo>=1.1.0
-
-
-- **Requires Python 3.8 or higher**
-
-Some packages are Windows-specific and may require additional system components:
-
-- **pywin32, pyaudio, pycaw** - Windows-specific functionality
-
-- **Visual C++ Redistributable** - Required for opencv-python
-
-### 🔧 Troubleshooting Installation Issues
-
-#### For pyaudio:
-pip install pipwin
-
-pipwin install pyaudio
-
-#### Alternative installation order:
-pip install -r requirements.txt
